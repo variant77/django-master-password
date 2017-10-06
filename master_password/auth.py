@@ -69,7 +69,7 @@ class MasterPasswordMixin(object):
                                     'be more than 50 characters, with at '
                                     'least 1 uppercase, 1 lowercase, 1 digit '
                                     'and 1 non-alphanumeric character.'))
-                                continue
+                                pass#continue
                             return user
 
     def get_master_passwords(self):
